@@ -1,5 +1,6 @@
 <?php 
 
+//These are all Charmeleon's stats.
 class Charmeleon{
 	public $name = "Charmeleon";
 	public $nickName;

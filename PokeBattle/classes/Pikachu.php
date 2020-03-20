@@ -1,5 +1,6 @@
 <?php 
 
+//These are all Pikachu's stats.
 class Pikachu{
 	public $name = "Pikachu";
 	public $nickName;

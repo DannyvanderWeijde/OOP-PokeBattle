@@ -11,11 +11,15 @@ $Klaas = new Pokemon();
 $Klaas = $Klaas->newPokemon("Charmeleon","Klaas");
 
 //Making the pokemon attack each other once.
-$firstAttack = new Attack();
-$firstAttack = $firstAttack->pokemonAttack($Tim,"electric ring",$Klaas,"flare attack");
+$firstAttack = new Battle();
+$firstAttack = $firstAttack->attack($Tim,"electric ring",$Klaas,"flare attack");
 
-$secondAttack = new Attack();
-$secondAttack = $secondAttack->pokemonAttack($Tim,"electric ring",$Klaas,"flare attack");
+$secondAttack = new Battle();
+$secondAttack = $secondAttack->attack($Tim,"electric ring",$Klaas,"flare attack");
 
-$thirdAttack = new Attack();
-$thirdAttack = $thirdAttack->pokemonAttack($Tim,"electric ring",$Klaas,"flare attack");
+$thirdAttack = new Battle();
+$thirdAttack = $thirdAttack->attack($Tim,"electric ring",$Klaas,"flare attack");
+
+//Show the total pokemons that are alive at this moment in time.
+$getPopulation = new pokemon;
+$getPopulation->getPopulation();
